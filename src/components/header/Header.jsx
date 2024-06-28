@@ -51,7 +51,7 @@ const Header = () => {
 
         <AppBar className={classes.header} style={{position:"relative"}} >
             <ToolBar>
-                <Link to='/' className={classes.components}>
+                <Link to='/Flip_Clone' className={classes.components}>
                     <img src={logoURL} className={classes.logo} />
                     <Box className={classes.box}>
                         <Typography className={classes.subheading}>Explore <Box component="span" style={{ color: '#FFE500' }}>plus</Box></Typography>
