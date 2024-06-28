@@ -15,7 +15,7 @@ function App() {
         <BrowserRouter>
           <Header />
           <Switch>
-            <Route exact path="/" component={Home} />
+            <Route exact path="/Flip_Clone" component={Home} />
             <Route exact path="/Card:id" component={Card} />
           </Switch>
           
