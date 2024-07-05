@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Flip_Clone/static/css/main.f0a5a365.css",
-    "main.js": "/Flip_Clone/static/js/main.56963cce.js",
+    "main.css": "/Flip_Clone/static/css/main.ade24627.css",
+    "main.js": "/Flip_Clone/static/js/main.6fe19963.js",
     "static/js/453.80501011.chunk.js": "/Flip_Clone/static/js/453.80501011.chunk.js",
     "static/media/bootom.png": "/Flip_Clone/static/media/bootom.7dc74142e8b173e2961e.png",
     "static/media/revicons.eot": "/Flip_Clone/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/Flip_Clone/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/Flip_Clone/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/Flip_Clone/index.html",
-    "main.f0a5a365.css.map": "/Flip_Clone/static/css/main.f0a5a365.css.map",
-    "main.56963cce.js.map": "/Flip_Clone/static/js/main.56963cce.js.map",
+    "main.ade24627.css.map": "/Flip_Clone/static/css/main.ade24627.css.map",
+    "main.6fe19963.js.map": "/Flip_Clone/static/js/main.6fe19963.js.map",
     "453.80501011.chunk.js.map": "/Flip_Clone/static/js/453.80501011.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0a5a365.css",
-    "static/js/main.56963cce.js"
+    "static/css/main.ade24627.css",
+    "static/js/main.6fe19963.js"
   ]
 }
