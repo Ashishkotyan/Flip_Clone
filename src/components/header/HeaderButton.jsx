@@ -19,17 +19,39 @@ const userStyle = makeStyles({
         fontWeight: '600',
         borderRadius: 2,
         padding: '5px 40px',
-        boxShadow: 'none'
+        boxShadow: 'none',
+
 
     },
     wrapper: {
         margin: '0 7% 0 auto',
         display: 'flex',
+        '@media(max-width: 600px)' : {
+            
+      marginTop:"20px",
+      marginLeft:'20px',
+      border:'2px solid red',
+      display:'flex',
+      
+      flexDirection: 'column-reverse;',
+      marginLeft:'30px',
+      justifyContent: 'center',
+      display:"none"
+      
+                
+
+
+      
+      
+       
+
+  },
         '& > *': {
             marginRight: 50,
             alignItems: 'center',
             textDecoration: 'none',
             color: '#fff'
+
         }
     },
     container: {
@@ -59,8 +81,8 @@ const HeaderButton = () => {
                     <Button variant="contained" onClick={() => openloginDialog()} className={classes.login}>Login</Button>
                 </Link>
             }
-            <Link><Typography style={{ marginTop: 5 }}>More</Typography></Link>
-            <Link to='/Card' className={classes.container}>
+            <Link><Typography className={classes.more} style={{ marginTop: 5 }}>More</Typography></Link>
+            <Link to='/cart' className={classes.container}>
                 <Badge badgeContent={2} color="secondary">
                     <ShoppingCart />
                 </Badge>

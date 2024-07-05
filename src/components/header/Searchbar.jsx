@@ -1,5 +1,7 @@
 import { makeStyles, fade, InputBase } from '@material-ui/core';
 import { Search } from '@material-ui/icons';
+import './responsive.css'
+
 
 const userStyle = makeStyles((theme) => ({
   search: {
@@ -10,7 +12,19 @@ const userStyle = makeStyles((theme) => ({
     marginLeft: 10,
     width: '38%',
     display: 'flex',
-    color: 'black'
+    color: 'black',
+    '@media(max-width: 600px)' : {
+            
+      marginTop:"20px",
+      marginLeft:'20px',
+      width:'70%'
+      
+      
+      
+       
+
+  },
+
 
   },
   searchIcon: {
@@ -34,12 +48,11 @@ const userStyle = makeStyles((theme) => ({
 const Searchbar = () => {
   const classes = userStyle();
 
-  return (<div className={classes.search}>
+  return (<div className={`${classes.search} searchbar`}>
     <InputBase
+    className='inputbar'
       placeholder="Search for products, brands and more"
-      classes={{
-        root: classes.inputRoot,
-        input: classes.inputInput,
+      classes={{root: classes.inputRoot,input: classes.inputInput,
       }}
       inputProps={{ 'aria-label': 'search' }}
     />

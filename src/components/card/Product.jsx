@@ -14,7 +14,8 @@ export const prod = [
         },
         description: 'This electric kettle from Pigeon will soon become a travelers best friend, a hostelite saviour and an answer to all the midnight cravings. With this handy appliance, you can boil water and use it to make instant noodles, packet soup, coffee and green tea.',
         discount: 'Extra 10% Off', 
-        tagline: 'Deal of the day' 
+        tagline: 'Deal of the day',
+        rating : "4,746 Ratings & 396" 
     },
     { 
         id: 'product2',
@@ -31,7 +32,8 @@ export const prod = [
         },
         description: 'This non-stick sandwich toaster .easy to use and very handy. Directly hold over flame to make tasty toasts and toasted sandwiches. Specially designed by keeping your needs in mind, the sandwich maker makes whatever youre doing simpler, smarter and better',
         discount: 'From 99+5% Off', 
-        tagline: 'Pestige, Nova & more' 
+        tagline: 'Pestige, Nova & more',
+        rating : "746 Ratings & 206" 
     },
     { 
         id: 'product3',
@@ -48,7 +50,8 @@ export const prod = [
         },
         description: 'This unique product can tone your back muscles, reduce belly fat, improve blood circulation and also improves your body posture. It increases the stamina, energy and vitality of the body. The elastic resistance of the rubber training rope can be used to train and exercise in whichever way you want, according to your physical needs.',
         discount: 'Upto 70% Off', 
-        tagline: 'Deal of the Day' 
+        tagline: 'Deal of the Day',
+        rating : "2746+ Ratings & 896" 
     },
     { 
         id: 'product4',
@@ -82,7 +85,8 @@ export const prod = [
         },
         description: '',
         discount: 'From ₹499', 
-        tagline: 'Kubra, Nova & more' 
+        tagline: 'Kubra, Nova & more',
+        rating : "446 Ratings & 96" 
     },
     { 
         id: 'product6',
@@ -99,7 +103,8 @@ export const prod = [
         },
         description: 'Table Fan. Perfect size fan for use on a table, desk or in an RV. Whisper quiet, powerful airflow and reliable operation in a compact 6" size. Two adjustable speeds to customize airflow: high or low settings. Tough break-resistant ABS plastic blades. ',
         discount: 'Minimum 40% Off', 
-        tagline: 'Top Selling' 
+        tagline: 'Top Selling',
+        rating : "2567 Ratings & 692" 
     },
     { 
         id: 'product7',
@@ -116,7 +121,8 @@ export const prod = [
         },
         description: 'Let music brighten up your mood anytime, anywhere with the boAt 235v2 Fast Charging Bluetooth Headset. This Bluetooth headset features a Call Vibration Alert, a Fast Charging Technology, and Easy Access Controls to listen to and manage your favorite music with ease.',
         discount: 'Minimum 50% Off', 
-        tagline: 'Grab Now!' 
+        tagline: 'Grab Now!',
+        rating : "146 Ratings & 10+" 
     }
 ];
 

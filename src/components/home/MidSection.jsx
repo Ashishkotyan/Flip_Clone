@@ -6,7 +6,44 @@ const userStyle = makeStyles({
 
     wrapper: {
         display: 'flex',
-        justifyContent: 'space-between'
+        justifyContent: 'space-between',
+        border:'2px solid red',
+        contain:'content',
+        
+        '&>img':{
+            width: "33%",
+        },
+        
+        '@media(max-width: 600px)' : {
+            '&>img':{
+               
+                maxWidth:'100%',
+                height:'200px',
+
+                    height:'100%',
+                    marginTop:'10px'
+                   
+                    
+
+                
+           },
+           bottomImg:{
+            height:'200px',
+            
+
+
+           }
+        },
+        
+
+    },
+    bottomImg:{
+        border:'2px solid red',
+        width: '100%',
+        '@media(max-width: 600px)' : {
+                height:'150px',
+                marginTop:"20px"
+        }
 
     }
 })
@@ -21,11 +58,12 @@ const MidSection = () => {
             <Box className={classes.wrapper}>
                 {
                     imageURL.map(image => (
-                        <img src={image} style={{ width: "33%" }} />
+                        <img src={image}  />
+
                     ))
                 }
             </Box>
-            <img src={coronaURL} style={{ width: '100%', marginTop: 20 }} />
+            <img src={coronaURL} className={classes.bottomImg}  />
 
         </>
 

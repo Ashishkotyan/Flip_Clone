@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { AppBar, Toolbar, makeStyles, withStyles, Typography, Box } from '@material-ui/core';
+// import './responsive.css'
 
 //components 
 import Searchbar from './Searchbar';
@@ -8,10 +9,46 @@ import HeaderButtons from './HeaderButton';
 const userStyle = makeStyles({
     header: {
         background: '#2874f0',
-        height: 55
+        height: 55,
+        '@media(max-width: 600px)' : {
+            width: '100%',
+            
+            display:'flex',
+            flexDirection:"column",
+            height:'15vh',
+
+           
+            
+              
+        }
+    },
+    toolbar:{
+        '@media(max-width: 600px)' : {
+            width: '100%',
+            // border:'2px solid red',
+            display:'flex',
+            flexDirection:"column",
+            padding:'2px',
+            
+        
+
+           
+            
+              
+        }
     },
     logo: {
-        width: 75
+        width: 75,
+        '@media(max-width: 600px)' : {
+            
+            
+            position:'relative',
+
+            
+            
+             
+
+        },
     },
     subURL: {
         width: 10,
@@ -20,7 +57,17 @@ const userStyle = makeStyles({
     },
     box:
     {
-        display: 'flex'
+        display: 'flex',
+        '@media(max-width: 600px)' : {
+            
+            
+
+            
+            
+             
+
+        },
+
     },
     components: {
         marginLeft: '12%',
@@ -49,8 +96,8 @@ const Header = () => {
     const classes = userStyle();
     return (
 
-        <AppBar className={classes.header} style={{position:"relative"}} >
-            <ToolBar>
+        <AppBar className={`${classes.header} additional-class`} style={{position:"relative"}} >
+            <ToolBar className={classes.toolbar}>
                 <Link to='/Flip_Clone' className={classes.components}>
                     <img src={logoURL} className={classes.logo} />
                     <Box className={classes.box}>
@@ -59,7 +106,9 @@ const Header = () => {
                         <img src={subURL} className={classes.subURL} />
                     </Box>
                 </Link>
-                <Searchbar />
+                
+                <Searchbar  />
+                
                 <HeaderButtons />
             </ToolBar>
         </AppBar>

@@ -26,7 +26,28 @@ const userStyle = makeStyles({
         background: '#ffffff',
         padding: '5px',
         margin: '12px 0 0 10px',
+        border:'20px',
+        width:'300px',
+        '&>img':{
+            width:'99% ',
+            marginTop:'20px',
+            objectFit:' cover',
+        },
+        
+        '@media(max-width: 600px)' : {
+            '&>img':{
+                    display:'inline-block',
+                    width:'55px',
+                    height:'400px',
+                    objectFit:' cover',
+                    marginTop:'22px',
+                    // display:"none"
 
+                
+           }
+                
+                
+            }  
     }
 
 })
@@ -58,7 +79,7 @@ const Home = () => {
                         />
                     </Box>
                     <Box className={classes.rightwrapper}>
-                        <img src={adURL} style={{ width: 230 }} />
+                        <img src={adURL}  />
                     </Box>
 
                 </Box>

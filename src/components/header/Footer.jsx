@@ -13,6 +13,18 @@ const userStyle = makeStyles({
     background: "#212121",
     color: "#FFFFFF",
     alignItems: "center",
+
+    '@media(max-width: 600px)' : {
+      
+              // border:'2px solid red',
+              // display:"none"
+              // contain:'content',
+              // display: "flex",
+              // flexDirection:'row',
+              display:'block',
+              
+          
+     }
   },
   main: {
     display: "flex",
@@ -21,21 +33,58 @@ const userStyle = makeStyles({
     height: "50vh",
     fontSize: "12px",
     flex: 5,
+    // border:'2px solid blue',
+    '@media(max-width: 600px)' : {
+      // width:100
+      display:'flex',
+      flexDirection:'row',
+      height:'60%',
+
+      
+  },
+
 
     "&>div": {
       height: "max-content",
-      marginTop: "65px",
+      marginTop: "15px",
+      // border:'2px solid blue',
+      width:'80px',
+      fontSize:"12px",
+      // marginLeft:'10px'
     },
   },
+ 
   Main_Right: {
     flex: 3,
     display: "flex",
     fontSize: "12px",
     borderLeft: "1px solid #454d5e",
     marginBottom: "40px",
+    // border:'2px solid red',
+    '@media(max-width: 600px)' : {
+      // width:100
+      // display:'flex',
+      // flexDirection:'row',
+      height:'60%',
+      // border:'2px solid red',
+      marginTop:'40px',
+
+
+
+      
+  },
 
     "&>div": {
       marginLeft: "40px",
+      '@media(max-width: 600px)' : {
+      // border:'2px solid red',
+      width:'200px',
+      marginLeft:'0',
+      height:'50vh',
+      marginTop:'90px'
+  
+        
+    },
     },
     "&>div>p": {
       padding: "0px",
@@ -112,7 +161,7 @@ export default function Footer() {
             <p> CIN : <span style={{color:"blue"}}>U51109KA2012PTC066107 </span> </p>
             
           </div>
-          <div></div>
+          
         </div>
       </div>
     </>

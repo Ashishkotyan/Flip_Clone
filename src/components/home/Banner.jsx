@@ -5,7 +5,18 @@ import { makeStyles } from "@material-ui/core";
 const userStyle = makeStyles({
     image: {
         width: '100%',
-        height: 280
+        height: 280,
+        '@media(max-width: 600px)' : {
+            
+          
+            width: '100%',
+            height:200,
+            
+            
+             
+
+        },
+   
     },
     top:{
         marginTop:10

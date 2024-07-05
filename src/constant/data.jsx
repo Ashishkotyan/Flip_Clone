@@ -21,6 +21,7 @@ export const bannerData = [
 
 export const products = [
     { 
+        
         id: 'product1',
         url: 'https://rukminim1.flixcart.com/image/150/150/kapoo7k0/electric-kettle/p/6/s/pigeon-favourite-original-imafs7xhj5uwgrh4.jpeg?q=70', 
         detailUrl: 'https://rukminim1.flixcart.com/image/416/416/kapoo7k0/electric-kettle/p/6/s/pigeon-favourite-original-imafs7xhj5uwgrh4.jpeg?q=70',
@@ -35,7 +36,8 @@ export const products = [
         },
         description: 'This electric kettle from Pigeon will soon become a travelers best friend, a hostelite saviour and an answer to all the midnight cravings. With this handy appliance, you can boil water and use it to make instant noodles, packet soup, coffee and green tea.',
         discount: 'Extra 10% Off', 
-        tagline: 'Deal of the day' 
+        tagline: 'Deal of the day',
+        rating : "546 Ratings & 93"  
     },
     { 
         id: 'product2',
@@ -52,7 +54,8 @@ export const products = [
         },
         description: 'This non-stick sandwich toaster .easy to use and very handy. Directly hold over flame to make tasty toasts and toasted sandwiches. Specially designed by keeping your needs in mind, the sandwich maker makes whatever youre doing simpler, smarter and better',
         discount: 'From 99+5% Off', 
-        tagline: 'Pestige, Nova & more' 
+        tagline: 'Pestige, Nova & more',
+        rating : "1646 Ratings & 13+", 
     },
     { 
         id: 'product3',
@@ -69,7 +72,8 @@ export const products = [
         },
         description: 'This unique product can tone your back muscles, reduce belly fat, improve blood circulation and also improves your body posture. It increases the stamina, energy and vitality of the body. The elastic resistance of the rubber training rope can be used to train and exercise in whichever way you want, according to your physical needs.',
         discount: 'Upto 70% Off', 
-        tagline: 'Deal of the Day' 
+        tagline: 'Deal of the Day',
+        rating : "946 Ratings & 100+" 
     },
     { 
         id: 'product4',
@@ -86,7 +90,8 @@ export const products = [
         },
         description: 'The Molife Sense 500, a brilliant smartwatch with a beautiful large display. Say hello to the infinity 1.7-inch display with 2.5D curved edges. Thanks to seamless Bluetooth 5.0 connectivity, you wont have to keep waiting. Bring a change to your outfit every day with changeable straps. A splash of color every day keeps the boredom away.',
         discount: 'Grab Now', 
-        tagline: 'Best Seller' 
+        tagline: 'Best Seller',
+        rating : "846 Ratings & 103" 
     },
     { 
         id: 'product5',
@@ -103,7 +108,8 @@ export const products = [
         },
         description: '',
         discount: 'From ₹499', 
-        tagline: 'Kubra, Nova & more' 
+        tagline: 'Kubra, Nova & more',
+        rating : "663 Ratings & 104" 
     },
     { 
         id: 'product6',
@@ -120,7 +126,8 @@ export const products = [
         },
         description: 'Table Fan. Perfect size fan for use on a table, desk or in an RV. Whisper quiet, powerful airflow and reliable operation in a compact 6" size. Two adjustable speeds to customize airflow: high or low settings. Tough break-resistant ABS plastic blades. ',
         discount: 'Minimum 40% Off', 
-        tagline: 'Top Selling' 
+        tagline: 'Top Selling',
+        rating : "766 Ratings & 148" 
     },
     { 
         id: 'product7',
@@ -137,7 +144,8 @@ export const products = [
         },
         description: 'Let music brighten up your mood anytime, anywhere with the boAt 235v2 Fast Charging Bluetooth Headset. This Bluetooth headset features a Call Vibration Alert, a Fast Charging Technology, and Easy Access Controls to listen to and manage your favorite music with ease.',
         discount: 'Minimum 50% Off', 
-        tagline: 'Grab Now!' 
+        tagline: 'Grab Now!',
+        rating : "446 Ratings & 130+" 
     }
 ];
 
@@ -160,7 +168,8 @@ export const Top_Selection = [
             },
             description: 'Casual Sneaker Shoes For Men | Upgraded Comfort with Cushioned Insole Sneakers For Men  (White, Blue).',
             discount: 'Upto 40% Off', 
-            tagline: 'Sports' 
+            tagline: 'Sports',
+            rating : "1766 Ratings & 156" 
         },
 
         {
@@ -179,7 +188,8 @@ export const Top_Selection = [
             },
             description: 'Women Floral Print Viscose Rayon Straight Kurta  (Pink)',
             discount: 'Upto 40% Off', 
-            tagline: 'Kurti'
+            tagline: 'Kurti',
+            rating : "1546 Ratings & 154"
         },
 
         {
@@ -199,7 +209,8 @@ export const Top_Selection = [
             },
             description: 'RSS SOFT TOYS Adorable Strawberry Rabbit Plushie, Cute Bunny Soft Toy - 35 cm  (Pink)',
             discount: 'Upto 73% Off', 
-            tagline: 'SOFT TOYS'
+            tagline: 'SOFT TOYS',
+            rating : "446 Ratings & 134"
         },
 
 
@@ -221,7 +232,8 @@ export const Top_Selection = [
             },
             description: 'TOSHIBA 126 cm (50 inch) QLED Ultra HD (4K) Smart VIDAA TV with Dolby Vision Atmos and REGZA Engine ZR( 2024 Edition)  (50C450ME)',
             discount: 'Upto 73% Off', 
-            tagline: 'TOSHIBA TV'
+            tagline: 'TOSHIBA TV',
+            rating : "466 Ratings & 187"
         },
 
         {
@@ -241,7 +253,8 @@ export const Top_Selection = [
             },
             description: 'Homerica Printed Double Comforter for AC Room  (Microfiber, SUNRISE)',
             discount: 'Upto 73% Off', 
-            tagline: 'Home/Furniture'
+            tagline: 'Home/Furniture',
+            rating : "546 Ratings & 984"
         },
 
 
@@ -262,7 +275,8 @@ export const Top_Selection = [
             },
             description: 'Godrej Aer Cool Aqua Car Freshener  (7.5 g)',
             discount: 'Upto 10% Off', 
-            tagline: 'Home'
+            tagline: 'Home',
+            rating : "3146 Ratings & 105"
         },
         
     
